@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: green;
+  transition: transform 0.2s;
+  
+}
+
+td:hover{
+  cursor: pointer;
+  background-color: aqua;
+  transform: scale(1.1);
+}
